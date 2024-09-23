@@ -1,0 +1,109 @@
+* {
+    font-family: "Noto Sans KR", sans-serif!important;
+}
+
+.noto-sans,
+.noto-sans * {
+    font-family: "Noto Sans KR", sans-serif!important;
+}
+
+body {
+    background: #1E1E1E;
+    color: #fff;
+}
+
+body.white {
+    background: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+#receipt {
+    color : #000000;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#receipt .receipt-body {
+    background: #ffffff;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+#receipt .edge-top {
+    position: relative;
+    bottom : -20px;
+}
+
+#receipt .edge-bottom {
+    position: relative;
+    top : -20px;
+}
+
+#receipt .receipt-info {
+    font-size: 12px;
+}
+
+#receipt .receipt-info .col {
+    margin-bottom: .8rem;
+}
+
+#receipt .receipt-info p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.underline {
+    border-bottom: 1px dashed #000000;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.item .total {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.option {
+    margin-bottom: 8px;
+}
+
+.item-card {
+    margin-bottom: 50px;
+}
+
+.item-card img {
+    width: 400px;
+}
+
+#itemList img {
+    width: 60px;
+}
+
+#itemList .item {
+    margin-bottom: 20px;
+}
+
+#itemList .item:last-child {
+    margin-bottom: 0;
+}
+
+#amountInfo.fixed {
+    position: fixed;
+    padding : 10px;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background: #f6f6f6;
+    z-index: 999;
+}
