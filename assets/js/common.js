@@ -19,7 +19,7 @@ const common =
             },
             {
                 idx: 4,
-                name: "인형용 해어밴드",
+                name: "인형용 헤어밴드",
                 price: 15000,
             },
             {
