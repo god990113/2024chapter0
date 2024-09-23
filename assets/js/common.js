@@ -75,7 +75,7 @@ const common =
             },
             {
                 idx: 12,
-                name: "쉬폰 패브릭 포스",
+                name: "쉬폰 패브릭 포스터",
                 price: 28000,
             },
             {
@@ -119,7 +119,7 @@ const common =
                 html += `</div>`;
             } else {
                 html += `<select class="custom-select qty" name="option[${item.idx}]['qty']">`;
-                html += common.bindQtyOptions(item.idx == 1 ? 101 : 0);
+                html += common.bindQtyOptions();
                 html += `</select>`;
             }
             html += `</div>`;
@@ -235,7 +235,7 @@ const common =
                 html += `</div>`;
             });
             $('#amountInfo .amount').html(amount.toLocaleString() + '원');
-            $('#amountInfo .gift').html((parseInt(amount / 20000)).toLocaleString() + '개');
+            $('#amountInfo .gift').html((parseInt(amount / 50000)).toLocaleString() + '개');
 
             $('#wrapItems').hide();
             $('#itemList').html(html).show();
