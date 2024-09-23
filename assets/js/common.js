@@ -48,14 +48,12 @@ const common =
                 name: "티셔츠",
                 options: [
                     {
-                        type: "size",
-                        option: ["L", "XL"],
-                    },
-                ],
-                options: [
-                    {
                         type: "color",
                         option: ["White", "Black"],
+                    },
+                    {
+                        type: "size",
+                        option: ["L", "XL"],
                     },
                 ],
                 price: 42000,
