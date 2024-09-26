@@ -4,7 +4,6 @@ const common =
             {
                 idx: 1,
                 name: "응원봉 ver.2",
-                img: "./assets/images/goods/01.png",
                 price: 45000,
             },
             {
@@ -96,7 +95,7 @@ const common =
             let textIdx = item.idx < 10 ? '0' + item.idx : item.idx;
             let html = ``;
             html += `<div class="col item-card" data-idx="${item.idx}">`;
-            html += `<img src="./assets/images/goods/${textIdx}.png?v=24092301">`;
+            html += `<img src="./assets/images/goods/${textIdx}.png?v=24092701">`;
             html += `<div class="name">${item.name}</div>`;
             html += `<div class="price" data-price="${item.price}">${item.price.toLocaleString()}원</div>`;
             // option 추가
